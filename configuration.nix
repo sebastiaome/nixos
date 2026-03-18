@@ -54,7 +54,7 @@
   programs.chromium = {
     enable = true;
     defaultSearchProviderEnabled = true;
-    defaultSearchProviderSearchURL = "https://duckduckgo.com/?q={searchTerms}";
+    defaultSearchProviderSearchURL = "https://google.com/search?q={searchTerms}";
     extraOpts = {
       PasswordManagerEnabled = false;
       RestoreOnStartup = 1;
@@ -100,6 +100,7 @@
       "seat"
       "video"
       "audio"
+      "docker"
     ];
     packages = [ ];
   };

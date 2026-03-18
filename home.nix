@@ -52,6 +52,7 @@
     bundler
     hugo
     ncdu
+    openssl
   ];
 
   stylix = {
@@ -156,12 +157,7 @@
       "Mod4+g" = "split h";
       "Mod4+v" = "split v";
 
-      "Mod4+Ctrl+Shift+i" = "exec swaymsg input type:keyboard xkb_layout us,us variant ,intl";
-      "Mod4+Ctrl+Shift+e" = "exec swaymsg input type:keyboard xkb_layout us";
-      "Mod4+Ctrl+Shift+b" = "exec swaymsg input type:keyboard xkb_layout br";
-      "Mod4+Ctrl+Shift+n" = "exec swaymsg input type:keyboard xkb_model thinkpad60 xkb_layout br";
-
-      "XF86AudioRaiseVolume" = "exec wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+";
+      "XF86AudioRaiseVolume" = "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+";
       "XF86AudioLowerVolume" = "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-";
       "XF86AudioMute" = "exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
       "XF86AudioMicMute" = "exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle";
