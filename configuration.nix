@@ -51,7 +51,6 @@
   ];
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
-  programs.light.enable = true;
   programs.dconf.enable = true;
   programs.xwayland.enable = true;
   programs.chromium = {

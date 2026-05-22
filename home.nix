@@ -19,7 +19,6 @@
     grim
     swaybg
     slurp
-    light
     vscodium
     fastfetch
     pavucontrol
@@ -223,7 +222,7 @@
       add_newline = false;
     };
   };
-  programs.vscode = {
+  programs.vscodium = {
     enable = true;
     package = pkgs.vscodium;
     profiles.default.extensions =
