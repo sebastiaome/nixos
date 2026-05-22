@@ -44,6 +44,9 @@
     nerd-fonts.fira-code
     nerd-fonts.droid-sans-mono
     noto-fonts-color-emoji
+    ifuse
+    libimobiledevice
+    usbmuxd
     home-manager
   ];
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
@@ -101,6 +104,9 @@
       "video"
       "audio"
       "docker"
+      "disk"
+      "plugdev"
+      "fuse"
     ];
     packages = [ ];
   };

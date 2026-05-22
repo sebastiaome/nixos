@@ -53,6 +53,13 @@
     hugo
     ncdu
     openssl
+    vlc
+    nomacs
+    gthumb
+    busybox
+    shotwell
+    localsend
+    exiftool
   ];
 
   stylix = {
